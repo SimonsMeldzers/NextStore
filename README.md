@@ -1,4 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Description
+
+E-commerce website for iPhone cases and other Apple related accessories.
+
+## Tech Stack
+
+Next.js | Stripe | Sanity | Material UI
 
 ## Getting Started
 

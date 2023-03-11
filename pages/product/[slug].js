@@ -7,8 +7,11 @@ import StarHalfIcon from '@mui/icons-material/StarHalf';
 
 const ProductDetails = ({ product, products }) => {
     const { image, name, details, price } = product;
+
+    const reviewCount = 69
+
     // If rating has more than .5, then apply a half star
-    const rating = 4.5;
+    const rating = 0.5;
     let halfStar = 0;
     if(Math.floor(rating) + 0.5 <= rating){
         halfStar += 1;
@@ -49,8 +52,9 @@ const ProductDetails = ({ product, products }) => {
                         Array.from({ length: 5 - Math.floor(rating) }).map((_, index) => (
                         <StarBorderIcon key={index} />
                     ))}
-
+                    
                     </div>
+                    <p style={{marginTop:'-6px'}}>({reviewCount})</p>
                 </div>
             </div>
         </div>
