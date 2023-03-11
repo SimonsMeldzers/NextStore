@@ -18,7 +18,7 @@ function Product({ product: {image, name, slug, price} }) {
             {name}
           </p>
           <p className="product-price">
-            {price}
+            {price}€
           </p>
         </div>
       </Link>

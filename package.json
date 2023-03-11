@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@babel/core": "^7.21.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.12",
-    "@mui/styled-engine-sc": "^5.11.11",
     "@sanity/client": "^5.2.2",
     "@sanity/image-url": "^1.0.2",
     "@stripe/stripe-js": "^1.48.0",
