@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 
 function Navbar() {
   return (
@@ -9,7 +9,8 @@ function Navbar() {
         <Link href='/'> Next Store </Link>
       </p>
       <button type='button' className='cart-icon' onClick=''>
-        <ShoppingBasketIcon/>
+        <ShoppingBagIcon/>
+        <span className='cart-item-qty'>2</span>
       </button>
     </div>
   )
