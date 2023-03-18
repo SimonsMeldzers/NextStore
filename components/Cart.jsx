@@ -9,9 +9,15 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 
+import getStripe from '@/lib/getStripe';
+
 function Cart() {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuantity, onRemove } = useStateContext();
+
+  const handleCheckout = () => {
+
+  }
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
@@ -91,7 +97,7 @@ function Cart() {
               <h3>{totalPrice.toFixed(2)}€</h3>
             </div>
             <div className="btn-container">
-              <button className="btn" type='button'>
+              <button className="btn" type='button' onClick={handleCheckout}>
                 Pay with Stripe
               </button>
             </div>
