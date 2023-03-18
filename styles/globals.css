@@ -593,8 +593,8 @@ padding: 30px 65px;
 padding: 6px;
 }
 .quantity-desc span{
-  font-size: 16px;
-  padding: 6px 12px;
+  font-size: 21px;
+  padding: 7px 12px;
   cursor: pointer;
 }
 .quantity-desc .minus{
@@ -687,7 +687,7 @@ margin-top: 160px;
     display: none;
   }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1020px) {
   .hero-banner-container{
     height: 560px;
   }
